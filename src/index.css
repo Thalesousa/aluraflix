@@ -4,7 +4,7 @@
 }
 
 :root {
-  --primary: #2A7AE4;
+  --primary: #0e7a0d;
   --black: #000000;
   --blackLighter: #9E9E9E;
   --grayLight: #F5F5F5;
@@ -12,6 +12,7 @@
   --white: #FFFFFF;
   --frontEnd: #6BD1FF;
   --backEnd: #00C86F;
+  --blue:#161446;
 }
 
 html,
