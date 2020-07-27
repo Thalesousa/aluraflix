@@ -1,4 +1,4 @@
-# Aluraflix
+# Gameflix
 
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/imersao-alura/aluraflix/blob/master/LICENSE)
 
@@ -8,6 +8,7 @@
 
 > Projeto construido durante a [Imersão React da Alura](https://www.alura.com.br/imersao-react/)
 
+![FireShot Capture 006 - React App - gameflix-git-master thalesousa vercel app](https://user-images.githubusercontent.com/37390511/88586483-d5a84500-d02a-11ea-8a22-2588b2af9a3b.png)
 
 ## Como rodar o projeto?
 
