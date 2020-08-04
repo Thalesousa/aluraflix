@@ -8,7 +8,7 @@
 
 > Projeto construido durante a [Imersão React da Alura](https://www.alura.com.br/imersao-react/)
 
-![FireShot Capture 006 - React App - gameflix-git-master thalesousa vercel app](https://user-images.githubusercontent.com/37390511/88586483-d5a84500-d02a-11ea-8a22-2588b2af9a3b.png)
+![Sem Título-1](https://user-images.githubusercontent.com/37390511/89247325-7a0a2880-d5e3-11ea-92b7-df32084cf323.png)
 
 ## Como rodar o projeto?
 
