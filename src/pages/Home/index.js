@@ -1,25 +1,53 @@
-import React from 'react';
-import Menu from '../../components/Menu'
-import dadosIniciais from '../../data/dados_iniciais.json'
-import BannerMain from '../../components/BannerMain'
-import Carousel from '../../components/Carousel'
-import Footer from '../../components/Footer'
+import React, { useEffect, useState } from 'react';
+import Menu from '../../components/Menu';
+// import dadosIniciais from '../../data/dados_iniciais.json';
+import BannerMain from '../../components/BannerMain';
+import Carousel from '../../components/Carousel';
+import Footer from '../../components/Footer';
+import categoriasRepository from '../../repositories/categorias';
+import PageDefault from '../../components/PageDefault';
 
 function Home() {
+  const [dadosIniciais, setDadosIniciais] = useState([]);
+  useEffect(() => {
+    categoriasRepository.getAllWithVideos()
+      .then((categoriasComVideos) => {
+        setDadosIniciais(categoriasComVideos);
+      })
+      .catch((err) => {
+        console.log(err.message);
+      });
+  }, []);
+
   return (
-    <div style={{ background: "#141414" }}>
-      <Menu />
+    <PageDefault paddingAll={0}>
+      {dadosIniciais.length === 0 && (<div>Loading...</div>)}
 
-      <BannerMain
-        videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
-        url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"In Halo Infinite's campaign, the Master Chief returns when humanity's fate hangs in the balance to confront the most ruthless foe he's ever faced – the Banished."}
-      />
+      {dadosIniciais.map((categoria, indice) => {
+        if (indice === 0) {
+          return (
+            <div key={categoria.id}>
+              <BannerMain
+                videoTitle={dadosIniciais[0].videos[0].titulo}
+                url={dadosIniciais[0].videos[0].url}
+                videoDescription={dadosIniciais[0].videos[0].description}
+              />
+              <Carousel
+                ignoreFirstVideo
+                category={dadosIniciais[0]}
+              />
+            </div>
+          );
+        }
 
-      <Carousel
-        ignoreFirstVideo
-        category={dadosIniciais.categorias[0]}
-      />
+        return (
+          <Carousel
+            key={categoria.id}
+            category={categoria}
+          />
+        );
+      })}
+      {/*
 
       <Carousel
         category={dadosIniciais.categorias[1]}
@@ -27,16 +55,14 @@ function Home() {
 
       <Carousel
         category={dadosIniciais.categorias[2]}
-      />      
+      />
 
       <Carousel
         category={dadosIniciais.categorias[3]}
-      />      
+      /> */}
 
-      <Footer />
-    </div>
-  )
-   
+    </PageDefault>
+  );
 }
 
 export default Home;

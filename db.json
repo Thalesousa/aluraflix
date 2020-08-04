@@ -1,8 +1,172 @@
 {
-  "categorias": [{
-    "id": 1,
-    "nome": "Mobile",
-    "descrição": "Jogos mobile mais baixados",
-    "cor": "#cbd1ff"
-  }]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Gameplay",
+      "cor": "#0e7a0d",
+      "link_extra": {
+        "text": "Veja as ultimas gameplays",
+        "url": "/"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Trailers",
+      "cor": "#0e7a0d",
+      "link_extra": {
+        "text": "Acompanhe os trailers lançados",
+        "url": "/"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Review",
+      "cor": "#0e7a0d",
+      "link_extra": {
+        "text": "Nossas ultimas reviews",
+        "url": "/"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Campeonatos",
+      "cor": "#0e7a0d",
+      "link_extra": {
+        "text": "Ultimas partidas",
+        "url": "/"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Halo Infinite | Campaign Gameplay Premiere",
+      "url": "https://www.youtube.com/watch?v=HZtc5-syeAk"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Cyberpunk 2077: gameplay",
+      "url": "https://www.youtube.com/watch?v=khWxzj-buks"
+    },    
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "DEATH STRANDING - O Início de Gameplay, Dublado em Português PT-BR | PS4 Pro",
+      "url": "https://www.youtube.com/watch?v=tMs35kRNGbo"
+    },  
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "CRASH BANDICOOT 4: It's About Time - Gameplay!",
+      "url": "https://www.youtube.com/watch?v=S62utrHF6_A"
+
+    },   
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "MANEATER - O Início de Gameplay, Dublado e Legendado em Português PT-BR!",
+      "url": "https://www.youtube.com/watch?v=izVJlfuqqcQ"
+    }, 
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "DIRT 5 - Gameplay de uma Demo Exclusiva de Preview!",
+      "url": "https://www.youtube.com/watch?v=0nk0Bv6H8D8"
+    }, 
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "DRAGON BALL Z KAKAROT - O Início de Gameplay, em Português PT-BR",
+      "url": "https://www.youtube.com/watch?v=86lpschLJKY"
+    }, 
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "MINECRAFT DUNGEONS - O Início de Gameplay, Dublado e Legendado em Português PT-BR!",
+      "url": "https://www.youtube.com/watch?v=Pky7r25W9uk"
+    }, 
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Cyberpunk 2077 – Trailer Cinematográfico Oficial E3 2019",
+      "url": "https://www.youtube.com/watch?v=qIcTM8WXFjk"
+    }, 
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Forza Motorsport - Official Announcement Trailer | Xbox Showcase 2020",
+      "url": "https://www.youtube.com/watch?v=0FxKbVhqRkE"
+    }, 
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "CrossfireX - Official Single-Player Campaign Trailer",
+      "url": "https://www.youtube.com/watch?v=qrNFGH8c4yc"
+    }, 
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Fable - Official Reveal Trailer | Xbox Showcase 2020",
+      "url": "https://www.youtube.com/watch?v=jdxE1j0hBJg"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Samurai Jack: Battle Through Time - Official Release Date Trailer",
+      "url": "https://www.youtube.com/watch?v=NiyqLIVIZdM"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "Análise / Reviews - DESTROY ALL HUMANS!",
+      "url": "https://www.youtube.com/watch?v=ZFaRwAcv_f8"
+    }, 
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Rocket Arena - Análise / Review - VOXEL",
+      "url": "https://www.youtube.com/watch?v=46cRKK3fsck"
+    }, 
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Paper Mario: The Origami King - Análise / Review - VOXEL",
+      "url": "https://www.youtube.com/watch?v=nnho-OtUUzc"
+    }, 
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Ghost of Tsushima - Review/Análise - VOXEL",
+      "url": "https://www.youtube.com/watch?v=Kfr9Wiif5SI"
+    },
+
+
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "CBLoL 2020: 1ª Etapa - Fase de Pontos | Melhores Momentos FLA x ITZ (3º Turno) - by Dell Gaming",
+      "url": "https://www.youtube.com/watch?v=4pCBRLQH9Zs"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "[PT-BR] Detona Pound vs. 9z Team | Brasil Premier League | Dia 6 - [Mapa 2 - TRAIN]",
+      "url": "https://www.youtube.com/watch?v=TJ2ipVun8fA"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "C.O.P.A. FF - Finais - Dia 2",
+      "url": "https://www.youtube.com/watch?v=KAtlJUAjpWM"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Fortnite World Cup Finals - Day 3",
+      "url": "https://www.youtube.com/watch?v=2xG1Umugpxs"
+    }
+    
+  ]
 }
